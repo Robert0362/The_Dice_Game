@@ -1,0 +1,129 @@
+body {
+  background-color:#393E46;
+  height:           100vh;
+  width:            100vw;
+}
+
+.container {
+  width:            70%;
+  margin:           auto;
+  text-align:       center;
+  padding:          2rem;
+}
+
+h1 {
+  margin:           1.85rem;
+  font-family:      'Lobster', cursive;
+  text-shadow:      5px 0 #232931;
+  font-size:        8rem;
+  color:          #4ECCA3;
+}
+
+.subHeader {
+  font-size:        2rem;
+  color:          #4ECCA3;
+  font-family:      'Indie Flower', cursive;
+}
+
+.dice {
+  text-align:       center;
+  display:          inline-block;
+  margin:           0rem 2rem 0rem 2rem;
+}
+
+img {
+  width:            80%;
+}
+
+.record{
+  font-family:      'Lobster', cursive;
+  color:          #4ECCA3;
+  font-weight:      700;
+  font-size:        1.5rem;
+  display:          flex;
+  justify-content:  center;
+}
+
+.player__one{
+  display:          inline-block;
+  padding:          1rem;
+}
+
+.player__two{
+  display:          inline-block;
+  padding:          1rem;
+}
+
+.draw{
+  display:          inline-block;
+  padding:          1rem;
+}
+
+.roll{
+  margin-top:       1rem;
+}
+
+.button{
+  padding-top:      2rem;
+  font-family:      'Lobster', cursive;
+  color:          #4ECCA3;
+  font-size:        larger;
+  font-weight:      700;
+}
+
+.roll__button{
+  padding:          1rem;
+  border-radius:    1.5rem;
+  margin-bottom:    1rem;
+}
+.reset__button{
+  padding:          1rem 1.5rem;
+  border-radius:    1.5rem;
+}
+
+.roll__button:hover, .reset__button:hover {
+  background-color: #4ECCA3;
+  color:            black;
+}
+
+footer {
+  margin-top:       5%;
+  color:          #EEEEEE;
+  text-align:       center;
+  font-family:      'Indie Flower', cursive;
+}
+
+@media (max-width:800px){
+  .container {
+    width:          90%;
+    margin:         auto;
+    text-align:     center;
+    padding:        0rem;
+  }
+
+  h1{
+    margin:         1rem;
+    font-size:      3rem;
+    color:        #4ECCA3;
+  }
+
+  img {
+    width:          50%;
+  }
+
+  .record{
+    font-weight:    400;
+  }
+  
+  .roll__button{
+    font-size:      larger;
+    font-weight:    400;
+    padding:        .5rem;
+  }
+
+  .reset__button{
+    font-size:      larger;
+    font-weight:    400;
+    padding:        .5rem 1.5rem;
+  }
+}

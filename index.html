@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Dicee</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
+
+  </head>
+  <body>
+    <!--Body-->
+    <div class="container">
+      <h1 id="title">The Dice Game</h1>
+      <!-- The Dice Images -->
+      <div class="dice">
+        <p class="subHeader">Player 1</p>
+        <img class="img1" id="img1" src="images/dice6.png">
+      </div>
+      <div class="dice">
+        <p class="subHeader">Player 2</p>
+        <img class="img2" id="img2" src="images/dice6.png">
+      </div>
+      <!-- End Dice -->
+      <!-- Score Section -->
+      <div class="record">
+        <div class="player__one">
+          <p id="pOneScore">Player One Wins: 0</p>
+        </div>
+        <div class="draw">
+          <p id='scoreDraw'> Draws: 0</p>
+        </div>
+        <div class="player__two">
+          <p id="pTwoScore">Player Two Wins: 0</p>
+        </div>
+      </div>
+      <!--End Score Section -->
+      <!--Buttons-->
+      <div class="roll">
+        <button class="roll__button button" id="roll__button">ROLL THE BONES</button>
+      </div>
+      <div class="reset ">
+        <button class="reset__button button" id="reset__button">RESET</button>
+      </div>
+      <!--End Buttons-->
+    </div>
+    <footer>
+     <p class="madeBy">Made by Robert Schwindler</p>
+    </footer>
+    <script src="javascript.js"></script>
+  </body>
+</html>
