@@ -5,34 +5,37 @@ body {
 }
 
 .container {
-  width:            70%;
+  width:            80%;
   margin:           auto;
   text-align:       center;
-  padding:          2rem;
+  padding:          1rem;
 }
 
 h1 {
-  margin:           1.85rem;
+  margin:           0rem;
   font-family:      'Lobster', cursive;
   text-shadow:      5px 0 #232931;
   font-size:        8rem;
   color:          #4ECCA3;
 }
 
+.dice {
+  text-align:       center;
+  display:          inline-block;
+  margin:           0rem 1rem 0rem 1rem;
+}
+
 .subHeader {
   font-size:        2rem;
   color:          #4ECCA3;
   font-family:      'Indie Flower', cursive;
+  margin-top: 0rem;
 }
 
-.dice {
-  text-align:       center;
-  display:          inline-block;
-  margin:           0rem 2rem 0rem 2rem;
-}
 
 img {
   width:            80%;
+  margin-top:       0rem;
 }
 
 .record{
@@ -42,21 +45,29 @@ img {
   font-size:        1.5rem;
   display:          flex;
   justify-content:  center;
+  margin-top:       0rem;
+  margin-bottom:    0rem;
 }
 
 .player__one{
   display:          inline-block;
-  padding:          1rem;
+  padding:          .5rem;
+  margin-top:       0rem;
+  margin-bottom:    0rem;
 }
 
 .player__two{
   display:          inline-block;
-  padding:          1rem;
+  padding:          .5rem;
+  margin-top:       0rem;
+  margin-bottom:    0rem;
 }
 
 .draw{
   display:          inline-block;
-  padding:          1rem;
+  padding:          .5rem;
+  margin-top:       0rem;
+  margin-bottom:    0rem;
 }
 
 .roll{
@@ -102,28 +113,54 @@ footer {
   }
 
   h1{
-    margin:         1rem;
+    margin:         .5rem;
     font-size:      3rem;
     color:        #4ECCA3;
   }
 
   img {
-    width:          50%;
+    width:            50%;
   }
 
   .record{
-    font-weight:    400;
+    font-weight:      400;
   }
   
   .roll__button{
-    font-size:      larger;
-    font-weight:    400;
-    padding:        .5rem;
+    font-size:        larger;
+    font-weight:      400;
+    padding:          .5rem;
   }
 
   .reset__button{
-    font-size:      larger;
-    font-weight:    400;
-    padding:        .5rem 1.5rem;
+    font-size:        larger;
+    font-weight:      400;
+    padding:          .5rem 1.5rem;
+  }
+
+  .subHeader {
+    font-size:        1.5rem;
+    color:          #4ECCA3;
+    font-family:      'Indie Flower', cursive;
+    margin-top:       0rem;
+  }
+
+  .img{
+    margin-top:       .25rem;
+  }
+  
+  .player__one{
+    display:          inline-block;
+    padding:          .25rem;
+  }
+  
+  .player__two{
+    display:          inline-block;
+    padding:          .25rem;
+  }
+  
+  .draw{
+    display:          inline-block;
+    padding:          .25rem;
   }
 }
